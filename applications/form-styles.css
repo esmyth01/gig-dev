@@ -1,0 +1,64 @@
+* {
+padding:0;
+margin:0;
+}
+
+form {
+	width:40%;
+	margin:auto;
+
+}
+
+
+fieldset {
+
+	/*width:500px;*/
+	padding:4%;
+	border:solid #05C7F2 5px;
+	border-radius:10px;
+}
+
+legend {
+	text-align:center;
+
+}
+
+
+
+
+
+
+textarea {
+	width:100%;
+	margin-bottom:10px;
+
+}
+
+label {
+	display:block;
+	margin: 5px 0;
+
+}
+select {
+
+	margin: 5px 0;
+
+}
+
+input[type=text], input[email]  {
+display:block;
+margin-bottom: 10px;
+width:100%;
+height:20px;
+	}
+input [type=radio], input [type=checkbox] {
+margin-right:3px;
+}
+
+form p {
+	margin:0 0 3px 5px;
+}
+
+#gender2, #beer4 {
+	margin-bottom:10px;
+}
