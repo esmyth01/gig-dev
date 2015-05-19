@@ -7,7 +7,7 @@ echo '
 
 
 
-<form action="#" method="post" id="contact">
+<form action="#" method="post" id="startup">
 
 
 <fieldset>
