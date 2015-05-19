@@ -24,6 +24,9 @@ echo '
 <label><strong>Email</strong></label>
 <input type="email" name="Email" id="Email">
 
+<label><strong>Project Name</strong></label>
+<input type="text" name="ProjectName" id="ProjectName">
+
 <label><strong>Project Description</strong></label><br>
 <textarea rows="10" name="ProjectDescription" id="ProjectDescription">
 </textarea>
