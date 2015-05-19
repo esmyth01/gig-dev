@@ -24,7 +24,11 @@ echo '
 <label><strong>Email</strong></label>
 <input type="email" name="Email" id="Email">
 
-<label><strong>Languages</strong>&nbsp(select all that apply)</label>
+<label><strong>Project Description</strong></label><br>
+<textarea rows="10" name="ProjectDescription" id="ProjectDescription">
+</textarea>
+
+<label><strong>Languages Needed</strong>&nbsp(select all that apply)</label>
 <p>
 <input type="checkbox" name="Languages []" id="Language1" value="html/css">Html/CSS
 </p>
