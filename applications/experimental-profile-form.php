@@ -30,51 +30,8 @@ echo '
 <label><strong>Email</strong></label>
 <input type="email" name="Email" id="Email">
 
-<label><strong>Bio</strong>&nbsp(Tell us a little about yourself)</label><br>
-<textarea rows="10" name="Bio" id="Bio">
-</textarea>
-
-
-
-<label><strong>Fluent Languages</strong>&nbsp(select all that apply)</label>
-<p>
-<input type="checkbox" name="Languages []" id="Language1" value="html/css">Html/CSS
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language2" value="php">PHP
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language3" value="javascript">Javascript
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language4" value="java">Java
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language5" value="csharp">C#
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language6" value="c">C
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language7" value="cplus">C++
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language8" value="objectivec">Objective-C
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language9" value="python">Python
-</p>
-<p>
-<input type="checkbox" name="Languages []" id="Language10" value="other">Other
-</p>
-
-<label><strong>Other Languages/Software</strong>&nbsp(List other fluent languages/software not listed above)</label><br>
-<textarea rows="10" name="Other" id="Other">
-</textarea>
-
-
-<label><strong>Comments</strong></label><br>
-<textarea rows="10" name="Comments" id="Comments">
+<label><strong>Languages/Skills</strong>&nbsp(List Languages/Skills comma seperated)</label><br>
+<textarea rows="10" name="Languages" id="Languages">
 </textarea>
 
 <input type="submit" name="Submit" id="Submit" value="Send It">
