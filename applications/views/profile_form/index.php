@@ -1,5 +1,21 @@
 <?php
-//views/news/index.php
+/**
+* index.php view page for generic profile_form controller
+*
+*
+*view/profile_form/index.php
+*
+* @package LARGE_PIECE_OF_PROGRAM
+* @subpackage Profile_form
+* @author Evan Smyth <evsmyth@yahoo.com>
+* @version 1.0 2015/05/21
+* @link http://www.example.com/
+* @license http://www.apache.org/licenses/LICENSE-2.0
+* @see Profile_model.php
+* @see Profile_form.php
+* @todo none
+*/
+
 $this->load->view($this->config->item('theme') . 'header');
 ?>
 
@@ -57,7 +73,7 @@ echo '
             <div class="col-lg-6">
               <textarea id="Languages" name="Languages" cols="53" placeholder="List Languages/Skill comma seperated" rows="4"></textarea>
             </div>
-            
+
           </div>
 
 
@@ -69,6 +85,6 @@ echo '
     </div>
 </div>';
 
-//views/news/index.php
+
 $this->load->view($this->config->item('theme') . 'header');
 ?>
