@@ -59,6 +59,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['news/rss'] = 'news/rss';
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
+$route['profile_form'] = 'profile_form';
 $route['news'] = 'news';
 $route['feed'] = 'feed';
 $route['customer'] = 'customer';
